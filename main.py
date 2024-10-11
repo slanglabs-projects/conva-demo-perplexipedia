@@ -113,7 +113,7 @@ def get_answer(query):
     response = client.invoke_capability_name(
         query="Answer the user's query based on the provided context. User's query: ({})".format(query),
         capability_name="question_answering_with_citations",
-        timeout=600,
+        # timeout=600,
         stream=False,
         capability_context=capability_context,
     )

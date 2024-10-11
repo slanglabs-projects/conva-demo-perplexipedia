@@ -11,7 +11,7 @@ def do_custom_search(query: str) -> dict:
     headers = {"Ocp-Apim-Subscription-Key": BING_SEARCH_API_KEY}
     params = {
         "q": query,
-        "customConfig": "7469e414-57a0-4289-898c-bf9f1fbfd380",
+        "customConfig": "36e6b2e7-6b94-48f5-8281-b991cfbd1469",
         "count": 5,
     }
     response = requests.get(
